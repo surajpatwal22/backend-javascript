@@ -1,12 +1,16 @@
-import express from "express";
+const express = require('express');
 
 const app = express();
 
 const port = process.env.port || 4000 ;
 
+const product_routes = require('./routes/productRoute')
+
 app.get("/",(req,res)=>{
     res.send("Hello World");
 })
+
+app.use('/api', product_routes )
 
 const start = async () =>{
     try {

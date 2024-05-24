@@ -1,12 +1,14 @@
-import express from "express";
+const express = require('express');
 
 const router = express.Router();
 
 
-// router.get('/', (req, res) => {
-//     res.send('Hello World');
-//     });
+const {getAllProducts,getAllProductsTesting} = require('../controllers/productController.js')
+
+
 
 router.route('/').get(getAllProducts);
+router.route('/testing').get(getAllProductsTesting);
+
 
 module.exports = router;
