@@ -1,0 +1,92 @@
+[
+    {
+        "name": "iPhone 13",
+        "description": "The latest iPhone with advanced features",
+        "features": true,
+        "price": 999,
+        "company": "apple",
+        "createdAt": "2024-05-28T12:34:56.789Z",
+        "updatedAt": "2024-05-28T12:34:56.789Z"
+    },
+    {
+        "name": "Samsung Galaxy S21",
+        "description": "Flagship Samsung phone with high-end specs",
+        "features": true,
+        "price": 799,
+        "company": "samsung",
+        "createdAt": "2024-05-28T12:35:56.789Z",
+        "updatedAt": "2024-05-28T12:35:56.789Z"
+    },
+    {
+        "name": "Mi 11 Ultra",
+        "description": "High-performance smartphone from Mi",
+        "features": true,
+        "price": 699,
+        "company": "mi",
+        "createdAt": "2024-05-28T12:36:56.789Z",
+        "updatedAt": "2024-05-28T12:36:56.789Z"
+    },
+    {
+        "name": "Infinix Note 10",
+        "description": "Affordable smartphone with impressive features",
+        "features": true,
+        "price": 199,
+        "company": "infinix",
+        "createdAt": "2024-05-28T12:37:56.789Z",
+        "updatedAt": "2024-05-28T12:37:56.789Z"
+    },
+    {
+        "name": "iPhone 12",
+        "description": "Previous generation iPhone with excellent performance",
+        "features": false,
+        "price": 799,
+        "company": "apple",
+        "createdAt": "2024-05-28T12:38:56.789Z",
+        "updatedAt": "2024-05-28T12:38:56.789Z"
+    },
+    {
+        "name": "Samsung Galaxy Note 20",
+        "description": "Samsung's premium phone with stylus support",
+        "features": true,
+        "price": 899,
+        "company": "samsung",
+        "createdAt": "2024-05-28T12:39:56.789Z",
+        "updatedAt": "2024-05-28T12:39:56.789Z"
+    },
+    {
+        "name": "Mi 10T Pro",
+        "description": "Feature-packed smartphone from Mi",
+        "features": false,
+        "price": 599,
+        "company": "mi",
+        "createdAt": "2024-05-28T12:40:56.789Z",
+        "updatedAt": "2024-05-28T12:40:56.789Z"
+    },
+    {
+        "name": "Infinix Hot 10",
+        "description": "Budget smartphone with decent performance",
+        "features": false,
+        "price": 149,
+        "company": "infinix",
+        "createdAt": "2024-05-28T12:41:56.789Z",
+        "updatedAt": "2024-05-28T12:41:56.789Z"
+    },
+    {
+        "name": "iPhone SE",
+        "description": "Compact iPhone with powerful features",
+        "features": true,
+        "price": 399,
+        "company": "apple",
+        "createdAt": "2024-05-28T12:42:56.789Z",
+        "updatedAt": "2024-05-28T12:42:56.789Z"
+    },
+    {
+        "name": "Samsung Galaxy A52",
+        "description": "Mid-range Samsung phone with great features",
+        "features": false,
+        "price": 499,
+        "company": "samsung",
+        "createdAt": "2024-05-28T12:43:56.789Z",
+        "updatedAt": "2024-05-28T12:43:56.789Z"
+    }
+]
