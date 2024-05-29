@@ -1,6 +1,7 @@
  const Product = require("../model/product.model")
  
  const getAllProducts =  async (req, res) =>{
+   
     try {
         const products = await Product.find({}).sort({price: -1});
         res.status(200).json(products);
@@ -19,13 +20,18 @@ const getProduct = async (req, res) =>{
     }
 }
 
-
-
-
  const getAllProductsTesting =  async (req, res) =>{
-    res.status(200).json({
-        message: "all test product retrieved"
-    })
+    const {company} = req.query;
+    const queryObject ={};
+    if(company){
+        queryObject.company = company;
+    }
+    try {
+        const products = await Product.find(queryObject );
+        res.status(200).json(products);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
  }
  
 
