@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 dotenv.config({
-    path: "./env",
+    path: "./.env",
 });
 
 const PORT = process.env.PORT || 5000;
