@@ -7,10 +7,7 @@ import connectDB from "./db/connection.js";
 
 // import userRoutes from "./routes/userRoutes.js";
 
-const app = express();
 
-app.use(express.json());
-app.use(cors());
 dotenv.config({
     path: "./.env",
 });
@@ -18,6 +15,16 @@ dotenv.config({
 const PORT = process.env.PORT || 5000;
 
 connectDB()
+.then(()=>{
+    app.on("error",()=>{
+                  console.log("ERROR",error);
+                });
+    app.listen(PORT, ()=>{
+        console.log(`Server running on port ${PORT}`);
+            });
+}).catch((err)=>{
+console.log('Monodb connection failed',err);
+})
 
 // (async()=>{
 //     try {
